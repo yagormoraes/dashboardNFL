@@ -191,6 +191,11 @@
   background-repeat: no-repeat;
 }
 
+.git:hover,
+.linkin:hover {
+  transform: scale(1.2);
+}
+
 .cardF > div {
   width: 100%;
   height: 60%;
@@ -230,7 +235,7 @@
 .ana {
   width: 110px;
   height: 130px;
-  background-image: url('../img/20201215_190401-removebg-preview.png');
+  background-image: url('../img/ana.png');
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -289,6 +294,7 @@
   font-weight: bolder;
   padding-bottom: 5px;
   font-size: 16px;
+  text-align: center;
 }
 
 .info > div {
