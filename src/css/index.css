@@ -107,7 +107,7 @@ nav {
 }
 
 .imagem {
-  background-image: url('/src/img/nfl-logo.svg');
+  background-image: url('../img/nfl-logo.svg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
