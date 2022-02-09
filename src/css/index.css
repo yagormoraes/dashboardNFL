@@ -25,7 +25,7 @@ nav {
 }
 
 .btn {
-  background-image: url('/src/img/menu.png');
+  background-image: url('../img/menu.png');
   background-size: 80%;
   background-position: center;
   background-repeat: no-repeat;
@@ -37,7 +37,7 @@ nav {
 }
 
 .btn1 {
-  background-image: url('/src/img/menu.png');
+  background-image: url('../img/menu.png');
   background-size: 80%;
   background-position: center;
   background-repeat: no-repeat;
