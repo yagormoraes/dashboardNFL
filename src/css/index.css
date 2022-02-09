@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background-color: #f2f2f2;
+}
+
+header {
+  width: 100%;
+  height: 100px;
+}
+
+nav {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+.btn {
+  background-image: url('/src/img/menu.png');
+  background-size: 80%;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 60px;
+  height: 55px;
+  margin-right: 35px;
+  box-shadow: 0 0 1em rgb(166, 168, 180);
+  border-radius: 15%;
+}
+
+.btn1 {
+  background-image: url('/src/img/menu.png');
+  background-size: 80%;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 60px;
+  height: 55px;
+  box-shadow: 0 0 1em rgb(166, 168, 180);
+  border-radius: 15%;
+  top: 22.5px;
+  position: absolute;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+.btn1:hover {
+  cursor: pointer;
+}
+
+.menu {
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 20%;
+  height: 100vh;
+  position: absolute;
+  background-color: white;
+  box-shadow: 0 0 1em rgb(166, 168, 180);
+  top: 0;
+  right: 0;
+  z-index: 5;
+}
+
+.box {
+  border-bottom: solid 5px rgba(1, 51, 105, 255);
+  width: 60%;
+  height: 200px;
+}
+
+.box1 {
+  border-top: solid 5px rgba(213, 10, 10, 255);
+  width: 60%;
+  height: 200px;
+}
+.paginas {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 150px;
+}
+
+.paginas > a {
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  color: #44203c;
+  font-weight: 900;
+}
+.principal {
+  width: 100%;
+  height: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.imagem {
+  background-image: url('/src/img/nfl-logo.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 400px;
+  height: 400px;
+  animation: desliza 2s ease-in-out;
+}
+
+@keyframes desliza {
+  from {
+    transform: translateX(-900px);
+  }
+  to {
+    transform: translateX(0px);
+  }
+}
