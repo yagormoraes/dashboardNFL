@@ -68,7 +68,7 @@ input {
 }
 
 #slide2:checked ~ .s1 {
-    margin-left: -11%;
+    margin-left: -10.3%;
 }
 
 #slide3:checked ~ .s1 {
