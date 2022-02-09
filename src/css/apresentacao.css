@@ -282,6 +282,26 @@
   margin-top: 10px;
 }
 
+.cinthia {
+  width: 100px;
+  height: 130px;
+  background-image: url('../img/cinthia.png');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-top: 10px;
+}
+
+.felipe {
+  width: 100px;
+  height: 130px;
+  background-image: url('../img/');
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-top: 10px;
+}
+
 .info {
   display: flex;
   flex-direction: column;
