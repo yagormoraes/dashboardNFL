@@ -3,7 +3,7 @@ body {
     padding: 0;
     height: 100vh;
     width: 100vw;
-    background: linear-gradient(rgb(89, 89, 189), white);
+    background-color: #f2f2f2;
 }
 
 .content {
@@ -11,6 +11,7 @@ body {
     width: 935px;
     border-radius: 20px;
     border: 5px solid white;
+    box-shadow: 0 0 1em rgb(166, 168, 180);
     overflow: hidden;
     position: absolute;
     top: 50%;
@@ -20,7 +21,7 @@ body {
 
 .navigation {
     position: absolute;
-    bottom: -5px;
+    bottom: 20px;
     left: 50%;
     transform: translate(-50%);
     display: flex;
@@ -67,23 +68,23 @@ input {
 }
 
 #slide2:checked ~ .s1 {
-    margin-left: -10.1%;
+    margin-left: -11%;
 }
 
 #slide3:checked ~ .s1 {
-    margin-left: -20.3%;
+    margin-left: -20.4%;
 }
 
 #slide4:checked ~ .s1 {
-    margin-left: -30.2%;
+    margin-left: -30.4%;
 }
 
 #slide5:checked ~ .s1 {
-    margin-left: -40%;
+    margin-left: -40.3%;
 }
 
 #slide6:checked ~ .s1 {
-    margin-left: -50.3%;
+    margin-left: -50.2%;
 }
 
 #slide7:checked ~ .s1 {
@@ -91,19 +92,19 @@ input {
 }
 
 #slide8:checked ~ .s1 {
-    margin-left: -70.4%;
+    margin-left: -70.3%;
 }
 
 #slide9:checked ~ .s1 {
-    margin-left: -80.4%;
+    margin-left: -80.3%;
 }
 
 #slide10:checked ~ .s1 {
-    margin-left: -90.5%;
+    margin-left: -90.1%;
 }
 
 #slide11:checked ~ .s1 {
-    margin-left: -100%;
+    margin-left: -100.1%;
 }
 
 
