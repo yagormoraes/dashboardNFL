@@ -11,7 +11,7 @@ em banco de dados usando MySQL e também usando metodologias
 ágeis com auxilio do Scrum e do Trello. Para que pudessemos
 plotar nossos gráficos, utilizamos o Power BI para tal finalidade.
 
-Link do nosso dashboard/apresentação -> <a href="">Clique Aqui!</a>
+Link do nosso dashboard/apresentação -> <a href="https://yagormorares.github.io/projetoModulo3/src/index.html">Clique Aqui!</a>
 
 ## Gráficos gerados
 
